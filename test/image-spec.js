@@ -7,7 +7,7 @@ var http = require('http');
 var is = require('is-predicate');
 var should = require('chai').should();
 var expect = require('chai').expect;
-var image = require('../lib/image');
+var image = require('image');
 
 describe('image', function(){
   // set up a dummy image to download
